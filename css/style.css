@@ -1,0 +1,85 @@
+/* Kullanılan Renkler Coolors'da üretildi*/
+/*
+rich-black-fogra-39: #000500ff;
+ming: #2c666eff;
+tufts-blue: #3c91e6ff;
+bisque: #f1dabfff;
+snow: #fffbffff;
+*/
+
+/*Colors and font family*/
+body {
+  background-color: #fffbffff;
+  font-family: monospace;
+  color: #000500ff;
+}
+/*Nav bar background*/
+nav {
+  background: #f1dabfff;
+}
+
+/*nav bar content arrangment*/
+.nav-table {
+  padding: auto;
+  letter-spacing: 2px;
+  border-spacing: 20px;
+  text-transform: uppercase;
+}
+/* link design*/
+a {
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #000500ff;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+p {
+  text-align: left;
+}
+
+#Shakespeare_img {
+  width: 800px;
+}
+/*fix for links in the text*/
+.link-in-text {
+  text-decoration: underline;
+  font-size: 1em;
+}
+/*product table design begin*/
+.p_name {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.p_img {
+  width: 250px;
+}
+
+.p_price {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.p_button {
+  text-align: center;
+  font-size: 2em;
+  width: 8em;
+}
+
+.product-table {
+  border-spacing: 30px;
+}
+/*product table design end*/
+
+h3 {
+  text-align: center;
+}
+/*Comments design*/
+ul li {
+  margin: 0 20px 30px 0;
+  vertical-align: top;
+}
